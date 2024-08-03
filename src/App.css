@@ -1,0 +1,69 @@
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.aniscroll::-webkit-scrollbar {
+  scroll-behavior: smooth;
+}
+
+.aniscroll::-webkit-scrollbar-track {
+  height: 50px;
+}
+
+
+.eyeDiv {
+  visibility: hidden;
+}
+
+.eyeBox:hover .eyeDiv {
+  visibility: visible;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  color: #ffdb70;
+  background-color: #3a3a3a;
+  border-radius: 20px;
+}
+
+.ed::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 26px;
+  width: 1px;
+  height: 245px;
+  background-color: #60606094;
+  z-index: 1;
+}
+
+
+
+.ed2::after{
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 26px;
+  width: 1px;
+  height: 32px;
+  background-color: #60606094;
+  z-index: 1;
+}
+
+
+.ed3::after{
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 26px;
+  width: 1px;
+  height: 30px;
+  background-color: #60606094;
+  z-index: 1;
+}
