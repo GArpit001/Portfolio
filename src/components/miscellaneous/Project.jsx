@@ -1,22 +1,37 @@
-import React from 'react'
-import iNoteBook from "../../assets/img/iNoteBook.jpg"
+import React, { useState } from 'react'
+import Application from './Application'
+import Web from './Web'
 
 const Project = () => {
+
+  const [pro, setPro] = useState(false)
+
+  const handleClick0 = () => {
+    setPro(false)
+  }
+
+  const handleClick1 = () => {
+    setPro(true)
+  }
+
   return (
-    <div>
-      
-        {/* <div>
-          <div className=''>
-            <div>
-              <a href="https://your-inote-book.netlify.app/login">iNoteBook</a>
-            </div>
+    <div className=''>
 
-            <div>
-              <img src={iNoteBook} alt="" />
-            </div>
+      <div>
+        <ul className='flex gap-12'>
+          <li onClick={handleClick0} className={`cursor-pointer text-lg font-semibold ${pro === false ? "text-[#ffdb70]" : "" }`}>Web </li>
+          <li onClick={handleClick1} className={`cursor-pointer text-lg font-semibold ${pro  ? "text-[#ffdb70]" : "" }`}>App</li>
+        </ul>
+      </div>
 
-          </div>
-        </div> */}
+
+      {
+        // pro === 0 ? <Application /> : "" || pro === 1 ? <Web /> : ""
+        pro ?  <Application /> : <Web/>
+      }
+
+
+
 
     </div>
   )

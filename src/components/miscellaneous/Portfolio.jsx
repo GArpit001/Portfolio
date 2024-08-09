@@ -32,7 +32,7 @@ const Portfolio = () => {
   return (
     <div className=' pb-10'>
 
-      <div className='py-6'>
+      <div className='pt-6 pb-3'>
         <ul className='flex gap-12'>
           <li onClick={handleClick0} className={` cursor-pointer text-lg font-semibold ${check == 0 ? "text-[#ffdb70]" : ""}`}>Skills</li>
           <li onClick={handleClick1} className={` cursor-pointer text-lg font-semibold ${check == 1 ? "text-[#ffdb70]" : ""}`}>Project</li>

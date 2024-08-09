@@ -31,6 +31,9 @@ const Certificate = () => {
                 <div className='pt-5'>
                     <h1 className='text-xs text-gray-400'>Google Ads</h1>
                     <h1 className='text-sm text-gray-700'>Developing and Managing Google Ads</h1>
+                    <p className='text-[13px] text-justify'>This certification program is part of Google’s Digital Garage initiative and is delivered through Coursera, a popular online learning platform. The certificate aims to equip learners with the skills necessary to manage Google Ads campaigns effectively and is intended for both beginners and those looking to deepen their knowledge in digital advertising. </p>
+
+
                 </div>
 
             </div>
@@ -61,6 +64,10 @@ const Certificate = () => {
                 <div className='mt-5'>
                     <h1 className='text-xs text-gray-400'>WordPress</h1>
                     <h1 className='text-sm text-gray-700'>WordPress Development and Optimization</h1>
+                    <p className='text-[13px] text-justify  text-[#d3d3d3e3]'>This certification program provides a comprehensive education in WordPress, covering everything from the basics of website creation to advanced customization techniques. It is aimed at both beginners who want to learn the fundamentals and more experienced users looking to deepen their understanding of WordPress. </p>
+
+
+
                 </div>
 
             </div>

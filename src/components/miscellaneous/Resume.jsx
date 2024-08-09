@@ -10,7 +10,7 @@ const Resume = () => {
         <div className='flex flex-col gap-6'>
 
           <div className='flex relative items-center '>
-            <div className='ed after:max-md:h-[400px] bg-[#141414c1] w-[50px] h-[50px] flex justify-center items-center rounded-xl border border-1 border-r-0 border-b-0 border-[#60606094]'>
+            <div className='ed after:max-md:h-[400px]  after:max-sm:h-[120vh]  bg-[#141414c1] w-[50px] h-[50px] flex justify-center items-center rounded-xl border border-1 border-r-0 border-b-0 border-[#60606094]'>
               <i className="fa-solid fa-book-open text-[#ffdb70] "></i>
             </div>
             <div className='ml-8'>
@@ -22,7 +22,7 @@ const Resume = () => {
 
 
           <div className='flex  items-baseline '>
-            <div className=' w-[50px] h-[50px] flex justify-center items-baseline ml-[2px] max-xl:ml-[2px] max-md:ml-[16px] '>
+            <div className=' w-[50px] h-[50px] flex justify-center items-baseline ml-[2px] max-xl:ml-[2px] max-md:ml-[16px] max-sm:ml-[18px] '>
               <div className='flex justify-center items-center w-4 h-4 bg-[#5959595d] rounded-full'>
                 <span className='inline-block z-10 w-2 h-2 bg-[#ffdb70cd]  rounded-full'>
                 </span>
@@ -35,7 +35,7 @@ const Resume = () => {
               <h1 className='font-normal text-[#ecc756]'>
                 2020 - 2023
               </h1>
-              <p>
+              <p >
                 "Education is not the learning of facts, but the training of the mind to think.
               </p>
             </div>
@@ -44,7 +44,7 @@ const Resume = () => {
 
 
           <div className='flex  items-baseline '>
-            <div className=' w-[50px] h-[50px] flex justify-center items-baseline ml-[2px]  max-xl:ml-[2px] max-md:ml-[16px]'>
+            <div className=' w-[50px] h-[50px] flex justify-center items-baseline ml-[2px]  max-xl:ml-[2px] max-md:ml-[16px] max-sm:ml-[18px]'>
               <div className='flex justify-center items-center w-4 h-4 bg-[#5959595d] rounded-full'>
                 <span className='inline-block z-10 w-2 h-2 bg-[#ffdb70cd] rounded-full'>
                 </span>
@@ -66,7 +66,7 @@ const Resume = () => {
 
 
           <div className='flex  items-baseline '>
-            <div className=' w-[50px] h-[50px] flex justify-center items-baseline ml-[2px] max-xl:ml-[2px] max-md:ml-[16px] '>
+            <div className=' w-[50px] h-[50px] flex justify-center items-baseline ml-[2px] max-xl:ml-[2px] max-md:ml-[16px] max-sm:ml-[18px] '>
               <div className='flex justify-center items-center w-4 h-4 bg-[#5959595d] rounded-full'>
                 <span className='inline-block z-10 w-2 h-2 bg-[#ffdb70cd] rounded-full'>
                 </span>

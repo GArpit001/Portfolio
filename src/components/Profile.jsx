@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Avtar from "../assets/img/avtar.jpeg"
+// import Avtar from "../assets/img/my.jpg"
 import Gmail from "../assets/img/Gmail.png"
 import Phone from "../assets/img/Phone.png"
 import Birth from "../assets/img/birth.png"
@@ -20,7 +21,7 @@ const Profile = () => {
                 <div className='max-xl:flex max-xl:w-[100%] max-xl:px-8 relative'>
 
                     <div className='text-center'>
-                        <img src={Avtar} className='w-40 rounded-3xl' alt="" />
+                        <img src={Avtar} className='w-40   rounded-3xl' alt="" />
                     </div>
 
                     <div className='text-center max-xl:ml-8 max-xl:flex max-xl:flex-col max-xl:gap-4 mt-2'>
