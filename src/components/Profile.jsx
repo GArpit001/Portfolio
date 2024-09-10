@@ -100,7 +100,7 @@ const Profile = () => {
 
                             <div className=''>
                                 <h1 className='text-base text-gray-400'>Birthday</h1>
-                                <h1 className='text-sm'>January 5, 2023</h1>
+                                <h1 className='text-sm'>January 5, 2003</h1>
                             </div>
                         </div>
 
